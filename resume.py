@@ -3,7 +3,7 @@ import streamlit as st
 from PIL import Image
 current=p.cwd()
 css=r"C:\Program Files\Python38\styles\main.css.txt"
-pic=r"C:\Program Files\Python38\dp.jpg"
+pic = r"C:\Program Files\Python38\path_to_your_image.jpg"
 PAGE_TITLE ="Digital CV | Kalash Gulati"
 PAGE_ICON = ":wave:"
 NAME = "Kalash Gulati"
