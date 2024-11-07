@@ -14,10 +14,8 @@ st.set_page_config(page_title=PAGE_TITLE ,page_icon=PAGE_ICON)
 
 
 
-col1,col2=st.columns(2,gap="small")
+col1=st.columns(1)
 with col1:
-    st.image(img,width=230)
-with col2:
     st.title(NAME)
     st.write(DESCRIPTION)
     st.write(":email:",EMAIL)
