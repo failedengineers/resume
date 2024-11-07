@@ -11,14 +11,9 @@ EMAIL = "gulatikalash05@gmail.com"
 SOCIAL_MEDIA = {"Youtube":r"https://www.youtube.com/@kalashgulati9265/videos","insta":r"https://www.instagram.com/thesanskariigulati/","GITHUB" : r"https://github.com/failedengineers"}
 PROJECTS={"VRITUAL AI":r"https://github.com/failedengineers/virtual-ai"}
 st.set_page_config(page_title=PAGE_TITLE ,page_icon=PAGE_ICON)
-
-
-
-col1=st.columns(1)
-with col1:
-    st.title(NAME)
-    st.write(DESCRIPTION)
-    st.write(":email:",EMAIL)
+st.title(NAME)
+st.write(DESCRIPTION)
+st.write(":email:",EMAIL)
 cols=st.columns(len(SOCIAL_MEDIA))
 for index,(platform,link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
