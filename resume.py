@@ -3,7 +3,6 @@ import streamlit as st
 from PIL import Image
 current=p.cwd()
 css=r"C:\Program Files\Python38\styles\main.css.txt"
-pic = r"C:\Program Files\Python38\path_to_your_image.jpg"
 PAGE_TITLE ="Digital CV | Kalash Gulati"
 PAGE_ICON = ":wave:"
 NAME = "Kalash Gulati"
@@ -12,7 +11,7 @@ EMAIL = "gulatikalash05@gmail.com"
 SOCIAL_MEDIA = {"Youtube":r"https://www.youtube.com/@kalashgulati9265/videos","insta":r"https://www.instagram.com/thesanskariigulati/","GITHUB" : r"https://github.com/failedengineers"}
 PROJECTS={"VRITUAL AI":r"https://github.com/failedengineers/virtual-ai"}
 st.set_page_config(page_title=PAGE_TITLE ,page_icon=PAGE_ICON)
-img=Image.open(pic)
+
 
 
 col1,col2=st.columns(2,gap="small")
